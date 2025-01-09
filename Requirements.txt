@@ -1,0 +1,7 @@
+# requirements.txt
+# This file lists the required Python packages for the project.
+
+mkdocs
+mkdocs-material
+pytest
+flake8

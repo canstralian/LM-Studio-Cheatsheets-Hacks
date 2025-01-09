@@ -1,0 +1,16 @@
+palette:
+  scheme: default
+  primary: teal
+  accent: orange
+
+features:
+  - navigation.tabs
+  - navigation.top
+  - search.highlight
+  - content.code.copy
+
+social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/your-username/your-repository-name
+  - icon: fontawesome/brands/twitter
+    link: https://twitter.com/your-twitter-handle
