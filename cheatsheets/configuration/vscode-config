@@ -1,0 +1,125 @@
+# VSCode Configuration Guide
+
+This document provides an overview of the recommended configuration files and settings for Visual Studio Code (VSCode). The configurations include editor settings, workspace settings, snippets, and recommended extensions.
+
+## Table of Contents
+
+1. [Editor Settings](#editor-settings)
+2. [Workspace Settings](#workspace-settings)
+3. [Snippets Configuration](#snippets-configuration)
+4. [Recommended Extensions](#recommended-extensions)
+
+## 1. Editor Settings
+
+You can customize your VSCode editor by modifying the `settings.json` file. Below is an example configuration for a better development experience:
+
+### `settings.json`
+  
+```json
+{
+    "editor.fontSize": 14,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "files.autoSave": "onWindowChange",
+    "workbench.colorTheme": "Default Dark+",
+    "editor.minimap.enabled": false,
+    "terminal.integrated.fontSize": 14,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "files.autoSaveDelay": 1000
+}
+```
+
+### Description of settings:
+- **`editor.fontSize`**: Controls the font size in the editor.
+- **`editor.tabSize`**: Defines the number of spaces per tab.
+- **`files.autoSave`**: Sets the auto-save behavior (`onWindowChange` saves files when switching between windows).
+- **`editor.formatOnSave`**: Automatically formats files when saving.
+- **`editor.codeActionsOnSave`**: Automatically fixes issues on save, like fixing linting errors.
+- **`terminal.integrated.fontSize`**: Sets the font size for the integrated terminal.
+
+---
+
+## 2. Workspace Settings
+
+To share settings with your team and ensure consistency across projects, you can create a `.code-workspace` file. Here's an example configuration:
+
+### .code-workspace
+```json
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true
+    },
+    "extensions": {
+        "recommendations": [
+            "esbenp.prettier-vscode",
+            "dbaeumer.vscode-eslint",
+            "ms-python.python"
+        ]
+    }
+}
+```
+
+### Description of workspace settings:
+- **`folders`**: Defines the folder structure for the workspace.
+- **`settings`**: Overrides the editor settings specific to this workspace.
+- **`extensions`**: Recommends extensions that your team should use.
+
+---
+
+## 3. Snippets Configuration
+
+Snippets help you automate repetitive tasks by defining reusable code blocks. Below is an example of how you can define a custom snippet to log output to the console.
+
+### `console-log-snippets.code-snippets`
+```json
+{
+    "Log output to console": {
+        "prefix": "log",
+        "body": [
+            "console.log('$1');",
+            "$2"
+        ],
+        "description": "Log output to console"
+    }
+}
+```
+
+### Description of snippet configuration:
+- **`prefix`**: The shorthand trigger to activate the snippet (`log` in this case).
+- **`body`**: The content inserted when the snippet is triggered. `$1` and `$2` are placeholders for the cursor position.
+- **`description`**: A brief explanation of the snippet's purpose.
+
+---
+
+## 4. Recommended Extensions
+
+These are some extensions that enhance your development workflow, improve code quality, and make your project easier to maintain:
+
+- **Prettier - Code Formatter** (`esbenp.prettier-vscode`): Automatically formats your code on save.
+- **ESLint** (`dbaeumer.vscode-eslint`): Lint your JavaScript/TypeScript code to follow best practices.
+- **Python** (`ms-python.python`): Provides rich support for Python development, including IntelliSense, linting, and debugging.
+- **GitLens** (`eamodio.gitlens`): Enhances the built-in Git capabilities with powerful insights into your Git history.
+
+### How to Install Extensions:
+1. Open the Extensions view (`Ctrl+Shift+X`).
+2. Search for the desired extension.
+3. Click on **Install**.
+
+---
+
+## Conclusion
+
+With these settings, snippets, and extensions, you can customize your Visual Studio Code environment to match your development workflow. Ensure that your workspace configurations and snippets are consistent for the best experience across teams.
+
+Feel free to adapt these configurations to suit your project needs.
+
+---
