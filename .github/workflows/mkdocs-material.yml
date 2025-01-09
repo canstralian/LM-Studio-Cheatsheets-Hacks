@@ -1,6 +1,6 @@
 palette:
   scheme: default
-  primary: teal
+  primary: mauve
   accent: orange
 
 features:
@@ -11,6 +11,6 @@ features:
 
 social:
   - icon: fontawesome/brands/github
-    link: https://github.com/your-username/your-repository-name
+    link: https://github.com/canstralian/LM-Studio-Cheatsheets-Hacks
   - icon: fontawesome/brands/twitter
-    link: https://twitter.com/your-twitter-handle
+    link: https://twitter.com/dotcomhunters
