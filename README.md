@@ -1,53 +1,42 @@
-# My-Python-Project-Template
+# LM Studio Cheatsheets and Hacks
 
-## Description
-A brief description of what this project does and who it's for.
+[![GitHub issues](https://github.com/canstralian/LM-Studio-Cheatsheets-Hacks)](https://github.com/canstralian/LM-Studio-Cheatsheets-Hacks/issues)
+[![GitHub forks](https://img.shields.io/github/forks/canstralian/LM-Studio-Cheatsheets-Hacks)](https://github.com/canstralian/LM-Studio-Cheatsheets-Hacks/network)
+[![GitHub stars](https://img.shields.io/github/stars/canstralian/LM-Studio-Cheatsheets-Hacks)](https://github.com/canstralian/LM-Studio-Cheatsheets-Hacks/stargazers)
+[![GitHub license](https://img.shields.io/github/license/canstralian/LM-Studio-Cheatsheets-Hacks)](https://github.com/canstralian/LM-Studio-Cheatsheets-Hacks/blob/main/LICENSE)
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+## Overview
 
-## Installation
-Step-by-step instructions on how to get the development environment set up.
+This repository contains cheatsheets and hacks for LM Studio, helping users optimize their workflows and improve productivity. 
 
-```sh
-pip install -r requirements.txt
-```
+## Content Organization
 
-## Usage
-Instructions and examples for using the project.
+- **Shortcuts**: Contains keyboard shortcuts for various applications.
+- **Terminal Commands**: List of useful terminal commands categorized by functionality and operating systems.
+- **Configuration**: Details on configuring software and systems.
+- **Tips**: Handy tips for improving productivity, including workflow optimization and software recommendations.
 
-```sh
-python main.py
-```
+## Getting Started
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/your-repo-name.git
+    ```
+2. Navigate to the directory:
+    ```bash
+    cd your-repo-name
+    ```
+3. Add your cheatsheets and hacks files using a text editor.
+4. Use Git commands to add, commit, and push your changes.
 
 ## Contributing
-Fork the repository: Click on the "Fork" button at the top right corner of the page.
 
-Clone your fork:
-```bash
-git clone https://github.com/yourusername/my-python-project-template.git
-```
-Create a new branch:
-```bash
-git checkout -b feature-branch
-```
-Make your changes:
-
-Commit your changes:
-```bash
-git commit -m "Description of your changes"
-```
-Push to your fork:
-```bash
-git push origin feature-branch
-```
-Create a pull request: Go to the original repository and click on "New Pull Request".
+Contributions are welcome! Please read our [contribution guidelines](CONTRIBUTING.md) for more information.
 
 ## License
-Include information about the project's license.
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
+
+- Thanks to the contributors and community for their support.
